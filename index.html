@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>CAMI – Centro de Atención Médica Integral</title>
+  <meta name="description" content="Atención médica de primer nivel en Loja: medicina general, psicología y odontología. Telemedicina y consultas presenciales.">
+  <style>
+    :root{--azul:#003399;--rojo:#c80000;--gris:#f6f7fb;}
+    *{box-sizing:border-box}body{margin:0;font-family:system-ui,-apple-system,Segoe UI,Roboto,Ubuntu,'Helvetica Neue',Arial,'Noto Sans',sans-serif;color:#1b1b1b;background:#fff}
+    header{background:linear-gradient(120deg,var(--azul),#2760c7);color:#fff;padding:48px 20px;text-align:center}
+    header h1{margin:0;font-size:2rem;letter-spacing:0.3px}
+    header p{margin:10px auto 24px;max-width:700px;opacity:.95}
+    .cta{display:inline-flex;gap:12px;flex-wrap:wrap;justify-content:center}
+    .btn{padding:12px 18px;border-radius:10px;border:2px solid rgba(255,255,255,.85);color:#fff;text-decoration:none;font-weight:600}
+    .btn.alt{background:#fff;color:var(--azul);border-color:#fff}
+    main{padding:32px 16px;max-width:1100px;margin:0 auto}
+    section{margin:32px 0;background:var(--gris);padding:20px;border-radius:16px}
+    h2{margin-top:0;color:var(--azul)}
+    .grid{display:grid;grid-template-columns:1fr;gap:14px}
+    @media(min-width:850px){.grid{grid-template-columns:repeat(3,1fr)}}
+    .card{background:#fff;border-radius:14px;padding:16px;border:1px solid #e8e9ee}
+    .pill{display:inline-block;background:#eef2ff;color:#233c8b;border:1px solid #d8defa;border-radius:999px;padding:4px 10px;font-size:.85rem;margin:4px 6px 0 0}
+    .foot{padding:24px;text-align:center;color:#555;font-size:.95rem}
+    .address{white-space:pre-line}
+  </style>
+</head>
+<body>
+  <header>
+    <h1>CAMI – Centro de Atención Médica Integral</h1>
+    <p>Atención primaria cercana a tu barrio: Medicina General, Psicología y Odontología. Modalidad híbrida: presencial + telemedicina.</p>
+    <div class="cta">
+      <a class="btn alt" href="https://wa.me/593986365562?text=Hola%20CAMI%2C%20deseo%20agendar%20una%20cita" target="_blank" rel="noopener">Agendar por WhatsApp</a>
+      <a class="btn" href="tel:+593986365562">Llamar ahora</a>
+    </div>
+  </header>
+
+  <main>
+    <section id="servicios">
+      <h2>Servicios</h2>
+      <div class="grid">
+        <div class="card">
+          <h3>Medicina General</h3>
+          <p>Consulta integral, control de enfermedades crónicas, prevención y chequeos rápidos.</p>
+          <span class="pill">Presencial</span><span class="pill">Telemedicina</span>
+        </div>
+        <div class="card">
+          <h3>Psicología</h3>
+          <p>Psicología clínica y educativa. Evaluación, consejería y acompañamiento.</p>
+          <span class="pill">Adultos</span><span class="pill">Niños y adolescentes</span>
+        </div>
+        <div class="card">
+          <h3>Odontología</h3>
+          <p>Profilaxis, restauraciones, extracciones simples, estética. Referencias a especialistas.</p>
+          <span class="pill">Odonto general</span>
+        </div>
+        <div class="card">
+          <h3>CAMI Fisio Sport</h3>
+          <p><em>Próximamente:</em> fisioterapia, readaptación y medicina del deporte.</p>
+          <span class="pill">Nuevo</span>
+        </div>
+        <div class="card">
+          <h3>Telemedicina</h3>
+          <p>Atención por videollamada con respaldo de consulta presencial cuando se requiera.</p>
+          <span class="pill">Híbrido</span>
+        </div>
+        <div class="card">
+          <h3>Convenios</h3>
+          <p>Alianzas con clínicas y seguros para continuidad del cuidado y preferencia de atención.</p>
+          <span class="pill">Empresas</span><span class="pill">Seguros</span>
+        </div>
+      </div>
+    </section>
+
+    <section id="equipo">
+      <h2>Equipo</h2>
+      <p>Profesionales comprometidos con la salud comunitaria y el crecimiento profesional.</p>
+      <ul>
+        <li>Medicina General – <em>4 profesionales</em></li>
+        <li>Psicología – <em>2 clínicas + 1 educativa</em></li>
+        <li>Odontología – <em>2 profesionales</em></li>
+      </ul>
+      <p>¿Eres profesional y quieres unirte? <a href="mailto:veintimillaeddie@gmail.com">Escríbenos</a>.</p>
+    </section>
+
+    <section id="ubicaciones">
+      <h2>Ubicaciones</h2>
+      <div class="card address">
+        <strong>Centro CAMI (Base)</strong>
+        Av. de los Paltas y Agustín Aguirre – Loja, Ecuador.
+      </div>
+      <div class="card address">
+        <strong>CAMI Fisio Sport (en preparación)</strong>
+        Sobre Farmacia Sara Betsabé (segunda planta) – Loja, Ecuador.
+      </div>
+    </section>
+
+    <section id="contacto">
+      <h2>Contacto</h2>
+      <p>WhatsApp: <a href="https://wa.me/593986365562" target="_blank" rel="noopener">+593 98 636 5562</a> · Email: <a href="mailto:veintimillaeddie@gmail.com">veintimillaeddie@gmail.com</a></p>
+      <p>Horarios: Lun–Sáb 08h00–19h00</p>
+    </section>
+  </main>
+
+  <div class="foot">
+    © CAMI – Centro de Atención Médica Integral. 2025. Todos los derechos reservados.
+  </div>
+</body>
+</html>
