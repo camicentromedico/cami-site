@@ -1,76 +1,60 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title> Centro de Atención Médica Integral</title>
-  <link rel="stylesheet" href="style.css" />
-  <meta name="description" content="Atención primaria en Loja: medicina, psicología, odontología, telemedicina y CAMI Fisio Sport.">
+  <meta charset="utf-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <title>CAMI – Centro de Atención Médica Integral</title>
+  <meta name="description" content="Atención primaria en Loja: medicina general, psicología, odontología, telemedicina y CAMI Fisio Sport. Agenda por WhatsApp o desde la web.">
+  <link rel="stylesheet" href="style.css"/>
 </head>
 <body>
-<header class="topbar">
-  <a class="brand" href="index.html">
-    <img src="assets/isotipo.png" alt="CAMI isotipo" class="iso" />
-    <span>CAMI</span>
-  </a>
-  <nav class="nav">
-    <a href="index.html">Inicio</a>
-    <a href="agenda.html">Agenda online</a>
-    <div class="dropdown">
-      <button class="dropbtn">Servicios</button>
-      <div class="dropdown-content">
-        <a href="medicina.html">Medicina general</a>
-        <a href="psicologia.html">Psicología</a>
-        <a href="odontologia.html">Odontología</a>
-        <a href="fisio.html">CAMI Fisio Sport</a>
-      </div>
+  <div class="topbar">
+    <div class="topbar-inner container">
+      <a class="brand" href="index.html"><img src="assets/isotipo.png" alt="CAMI isotipo" class="iso"/><span>CAMI</span></a>
+      <nav class="nav">
+        <a href="index.html">Inicio</a>
+        <a href="agenda.html">Agenda online</a>
+        <div class="dropdown"><button class="dropbtn">Servicios</button>
+          <div class="dropdown-content">
+            <a href="medicina.html">Medicina general</a>
+            <a href="psicologia.html">Psicología</a>
+            <a href="odontologia.html">Odontología</a>
+            <a href="fisio.html">CAMI Fisio Sport</a>
+          </div>
+        </div>
+        <a href="telemedicina.html">Telemedicina</a>
+        <a href="convenios.html">Convenios</a>
+        <a href="ubicaciones.html">Ubicaciones</a>
+        <a href="contacto.html">Contacto</a>
+      </nav>
     </div>
-    <a href="telemedicina.html">Telemedicina</a>
-    <a href="convenios.html">Convenios</a>
-    <a href="ubicaciones.html">Ubicaciones</a>
-    <a href="contacto.html">Contacto</a>
-  </nav>
-</header>
-<main class="container">
+  </div>
+  <main class="container">
 
 <section class="kv">
   <div class="box">
     <h1>Agenda Online</h1>
-    <p>Escanea el siguiente código o abre el enlace para reservar tu cita. Si prefieres WhatsApp, usa el botón en la portada.</p>
+    <p>Escanea el código o usa los botones para reservar tu cita. Si prefieres WhatsApp, usa el botón principal.</p>
     <div class="btns">
       <a class="btn primary" href="https://wa.me/593986365562?text=Hola%20CAMI%2C%20deseo%20agendar%20una%20cita" target="_blank" rel="noopener">Agendar por WhatsApp</a>
       <a class="btn" href="index.html">Volver al inicio</a>
     </div>
   </div>
   <div class="box" style="text-align:center">
-    <img src="assets/qr_agenda.png" alt="QR Agenda Online" class="qr" />
-    <div style="font-size:.95rem;margin-top:8px;color:#445">QR de agenda online</div>
+    <img src="assets/qr_agenda.png" alt="QR Agenda Online" class="qr"/>
+    <div style="font-size:.95rem;margin-top:8px;color:#526070">QR de agenda online</div>
   </div>
 </section>
 
-</main>
-<footer class="foot">
-  <div class="foot-grid">
-    <div>
-      <img src="assets/logo_principal.png" alt="CAMI Logotipo" class="logofoot" />
+  </main>
+  <footer class="foot">
+    <div class="inner">
+      <div><img src="assets/logo_principal.png" class="logofoot" alt="CAMI"/></div>
+      <div><strong>Atención</strong><br/>Lun–Vie 08h00–19h00 · Sáb–Dom 09h00–13h00<br/>Emergencias: 05h00–24h00</div>
+      <div><strong>Contacto</strong><br/>WhatsApp: 0986365562 · 0993086500<br/>Email: <a href="mailto:cami.centromedico@gmail.com" style="color:#ecf1ff">cami.centromedico@gmail.com</a></div>
     </div>
-    <div>
-      <strong>Atención</strong><br/>
-      Lun–Vie 08h00–19h00 · Sáb–Dom 09h00–13h00<br/>
-      Emergencias: 05h00–24h00
-    </div>
-    <div>
-      <strong>Contacto</strong><br/>
-      WhatsApp: 0986365562 · 0993086500<br/>
-      Email: <a href="mailto:cami.centromedico@gmail.com">cami.centromedico@gmail.com</a>
-    </div>
-  </div>
-  <div class="copy">© CAMI 2025. Todos los derechos reservados.</div>
-</footer>
-<script>
-  document.querySelectorAll('.dropbtn').forEach(btn=>{
-    btn.addEventListener('click', (e)=>{ e.target.parentElement.classList.toggle('open'); });
-  });
-</script>
+    <div class="copy">© CAMI 2025. Todos los derechos reservados.</div>
+  </footer>
+  <script>document.querySelectorAll('.dropbtn').forEach(btn=>btn.addEventListener('click',()=>btn.parentElement.classList.toggle('open')));</script>
 </body>
 </html>
