@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>CAMI – Centro de Atención Médica Integral</title>
+  <link rel="stylesheet" href="style.css" />
+  <meta name="description" content="Atención primaria en Loja: medicina, psicología, odontología, telemedicina y CAMI Fisio Sport.">
+</head>
+<body>
+<header class="topbar">
+  <a class="brand" href="index.html">
+    <img src="assets/isotipo.png" alt="CAMI isotipo" class="iso" />
+    <span>CAMI</span>
+  </a>
+  <nav class="nav">
+    <a href="index.html">Inicio</a>
+    <a href="agenda.html">Agenda online</a>
+    <div class="dropdown">
+      <button class="dropbtn">Servicios</button>
+      <div class="dropdown-content">
+        <a href="medicina.html">Medicina general</a>
+        <a href="psicologia.html">Psicología</a>
+        <a href="odontologia.html">Odontología</a>
+        <a href="fisio.html">CAMI Fisio Sport</a>
+      </div>
+    </div>
+    <a href="telemedicina.html">Telemedicina</a>
+    <a href="convenios.html">Convenios</a>
+    <a href="ubicaciones.html">Ubicaciones</a>
+    <a href="contacto.html">Contacto</a>
+  </nav>
+</header>
+<main class="container">
+
+<section class="kv">
+  <div class="box">
+    <h1>Ubicaciones</h1>
+    <p><strong>Centro CAMI (Base):</strong><br/>Av. de los Paltas y Agustín Aguirre – Loja, Ecuador.</p>
+    <p><strong>CAMI Fisio Sport (en preparación):</strong><br/>Sobre Farmacia Sara Betsabé (segunda planta) – Loja, Ecuador.</p>
+    <div class="notice">Puedes subir aquí los QR de cada ubicación cuando estén listos.</div>
+  </div>
+  <div class="box" style="text-align:center">
+    <img src="assets/qr_ubicacion.png" alt="QR ubicación" class="qr" />
+    <div style="font-size:.95rem;margin-top:8px;color:#445">QR de ubicación (ejemplo)</div>
+  </div>
+</section>
+
+</main>
+<footer class="foot">
+  <div class="foot-grid">
+    <div>
+      <img src="assets/logo_principal.png" alt="CAMI Logotipo" class="logofoot" />
+    </div>
+    <div>
+      <strong>Atención</strong><br/>
+      Lun–Vie 08h00–19h00 · Sáb–Dom 09h00–13h00<br/>
+      Emergencias: 05h00–24h00
+    </div>
+    <div>
+      <strong>Contacto</strong><br/>
+      WhatsApp: 0986365562 · 0993086500<br/>
+      Email: <a href="mailto:cami.centromedico@gmail.com">cami.centromedico@gmail.com</a>
+    </div>
+  </div>
+  <div class="copy">© CAMI 2025. Todos los derechos reservados.</div>
+</footer>
+<script>
+  document.querySelectorAll('.dropbtn').forEach(btn=>{
+    btn.addEventListener('click', (e)=>{ e.target.parentElement.classList.toggle('open'); });
+  });
+</script>
+</body>
+</html>
