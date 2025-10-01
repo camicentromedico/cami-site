@@ -4,83 +4,172 @@
   <meta charset="utf-8"/>
   <meta name="viewport" content="width=device-width, initial-scale=1"/>
   <title>CAMI – Centro de Atención Médica Integral</title>
-  <meta name="description" content="Atención primaria en Loja: medicina general, psicología, odontología, telemedicina y CAMI Fisio Sport. Agenda por WhatsApp o desde la web.">
+  <meta name="description" content="CAMI está cerca de usted. Atención primaria en Medicina General, Psicología y Odontología.">
   <link rel="stylesheet" href="style.css"/>
 </head>
 <body>
-  <div class="topbar">
-    <div class="topbar-inner container">
-      <a class="brand" href="index.html"><img src="assets/logo_header.png" alt="CAMI – Centro de Atención Médica Integral"/></a>
+  <header class="header">
+    <div class="header-inner container">
+      <a class="brand" href="#inicio"><img src="assets/logo_color.png" alt="CAMI"/></a>
       <nav class="nav">
-        <a href="index.html">Inicio</a>
-        <a href="agenda.html">Agenda online</a>
-        <div class="dropdown"><button class="dropbtn">Servicios</button>
-          <div class="dropdown-content">
-            <a href="medicina.html">Medicina general</a>
-            <a href="psicologia.html">Psicología</a>
-            <a href="odontologia.html">Odontología</a>
-            <a href="fisio.html">CAMI Fisio Sport</a>
-          </div>
-        </div>
-        <a href="telemedicina.html">Telemedicina</a>
-        <a href="convenios.html">Convenios</a>
-        <a href="ubicaciones.html">Ubicaciones</a>
-        <a href="contacto.html">Contacto</a>
+        <a href="#inicio">Inicio</a>
+        <a href="#servicios">Servicios</a>
+        <a href="#promos">Promociones</a>
+        <a href="#equipo">Nuestro equipo</a>
+        <a href="#contacto">Contacto</a>
       </nav>
     </div>
-  </div>
-  <main class="container">
+  </header>
 
-<section class="hero">
-  <div class="hero-box">
-    <h1>Tu salud, cerca de ti</h1>
-    <p class="lead">Consulta hoy mismo en Medicina General, Psicología y Odontología. Atención presencial y por videollamada. Horarios extendidos y respuesta por WhatsApp.</p>
-    <div class="btns">
-      <a class="btn primary" href="https://wa.me/593986365562?text=Hola%20CAMI%2C%20deseo%20agendar%20una%20cita" target="_blank" rel="noopener">Agendar por WhatsApp</a>
-      <a class="btn" href="agenda.html">Agenda Online</a>
+  <div class="promo-banner">
+    <div class="promo-inner">
+      <div><span class="tag">Promo del mes</span> Telemedicina en Medicina y Psicología a precio preferencial.</div>
+      <div><a href="#promos">Ver promociones →</a></div>
     </div>
-    <div style="margin-top:10px"><span class="badge">Atención rápida</span><span class="badge">Telemedicina</span><span class="badge">Red de convenios</span></div>
-    <div class="note"><strong>📞 Número directo:</strong> 0993086500</div>
   </div>
-  <div style="text-align:center">
-    <img src="assets/qr_whatsapp.png" alt="QR WhatsApp" class="qr"/>
-    <div style="font-size:.95rem;margin-top:8px;color:#526070">Escanéalo para agendar por WhatsApp</div>
-  </div>
-</section>
 
-<section class="section">
-  <h2>Servicios</h2>
-  <div class="grid3">
-    <div class="card"><h3>Medicina General</h3><p>Chequeos, control de crónicos, recetas y prevención.</p><a class="btn" href="medicina.html">Ver Medicina</a></div>
-    <div class="card"><h3>Psicología</h3><p>Ansiedad, estrés, terapia breve y acompañamiento.</p><a class="btn" href="psicologia.html">Ver Psicología</a></div>
-    <div class="card"><h3>Odontología</h3><p>Limpieza, restauraciones, extracción simple y estética.</p><a class="btn" href="odontologia.html">Ver Odontología</a></div>
-    <div class="card"><h3>CAMI Fisio Sport</h3><p><em>Próximamente:</em> fisioterapia y readaptación deportiva.</p><a class="btn" href="fisio.html">Ver Fisio Sport</a></div>
-  </div>
-</section>
+  <main id="inicio" class="container">
+    <section class="hero">
+      <div class="hero-box">
+        <h1>CAMI está cerca de usted</h1>
+        <p class="lead">Atención primaria con Medicina General, Psicología y Odontología. Modalidad presencial y telemedicina. Horarios extendidos y respuesta ágil por WhatsApp.</p>
+        <div class="btns">
+          <a class="btn primary" href="https://wa.me/593986365562?text=Hola%20CAMI%2C%20deseo%20agendar%20una%20cita" target="_blank" rel="noopener">Agendar por WhatsApp</a>
+          <a class="btn" href="#contacto">Información y horarios</a>
+        </div>
+        <div style="margin-top:10px">
+          <span class="badge">Atención rápida</span>
+          <span class="badge">Telemedicina</span>
+          <span class="badge">Red de convenios</span>
+        </div>
+      </div>
+      <div style="text-align:center">
+        <img src="assets/qr_whatsapp.png" alt="QR WhatsApp para agendar" class="qr"/>
+        <div style="font-size:.95rem;margin-top:8px;color:#526070">Escanéelo para agendar por WhatsApp</div>
+      </div>
+    </section>
 
-<section class="section kv">
-  <div class="box">
-    <h2>Ubicaciones</h2>
-    <p><strong>Centro CAMI (Base):</strong><br/>Av. de los Paltas y Agustín Aguirre – Loja, Ecuador.</p>
-    <p><strong>CAMI Fisio Sport (en preparación):</strong><br/>Sobre Farmacia Sara Betsabé (segunda planta).</p>
-  </div>
-  <div class="box" style="text-align:center">
-    <img src="assets/qr_ubicacion.png" alt="QR ubicación" class="qr"/>
-    <div style="font-size:.95rem;margin-top:8px;color:#526070">Escanéalo para ubicarnos</div>
-  </div>
-</section>
+    <section id="servicios" class="section">
+      <h2>Servicios</h2>
+      <div class="sub">Entre a cada servicio para ver fotos de procedimientos y testimonios.</div>
+      <div class="services">
+        <article class="card">
+          <div class="cover"><img src="assets/isotipo_azul.png" alt="Medicina General"></div>
+          <div class="body">
+            <h3>Medicina General</h3>
+            <p>Chequeos, control de crónicos, recetas y prevención.</p>
+            <a class="go" href="servicio-medicina.html">Ver testimonios y procedimientos →</a>
+          </div>
+        </article>
+        <article class="card">
+          <div class="cover"><img src="assets/isotipo_azul.png" alt="Psicología"></div>
+          <div class="body">
+            <h3>Psicología</h3>
+            <p>Ansiedad, estrés, terapia breve y acompañamiento.</p>
+            <a class="go" href="servicio-psicologia.html">Ver testimonios y procedimientos →</a>
+          </div>
+        </article>
+        <article class="card">
+          <div class="cover"><img src="assets/isotipo_azul.png" alt="Odontología"></div>
+          <div class="body">
+            <h3>Odontología</h3>
+            <p>Limpieza, restauraciones, extracción simple y estética.</p>
+            <a class="go" href="servicio-odontologia.html">Ver testimonios y procedimientos →</a>
+          </div>
+        </article>
+        <article class="card">
+          <div class="cover"><img src="assets/isotipo_azul.png" alt="CAMI Fisio Sport"></div>
+          <div class="body">
+            <h3>CAMI Fisio Sport</h3>
+            <p><em>Próximamente:</em> fisioterapia y readaptación deportiva.</p>
+            <a class="go" href="servicio-fisio.html">Ver novedades →</a>
+          </div>
+        </article>
+      </div>
+    </section>
 
+    <section id="promos" class="section">
+      <h2>Promociones</h2>
+      <div class="promos">
+        <div class="promo">
+          <h3>Telemedicina – Medicina General</h3>
+          <p>Consulta online + receta digital. Ideal para seguimiento y control.</p>
+          <a class="cta" target="_blank" rel="noopener" href="https://wa.me/593986365562?text=Quiero%20usar%20la%20promo%20de%20Telemedicina%20en%20Medicina%20General">Usar promoción por WhatsApp →</a>
+        </div>
+        <div class="promo">
+          <h3>Telemedicina – Psicología</h3>
+          <p>Paquete de 4 sesiones online con descuento especial.</p>
+          <a class="cta" target="_blank" rel="noopener" href="https://wa.me/593986365562?text=Quiero%20la%20promo%20de%20Telemedicina%20en%20Psicolog%C3%ADa">Usar promoción por WhatsApp →</a>
+        </div>
+        <div class="promo">
+          <h3>Odontología – Orientación inicial</h3>
+          <p>Videollamada previa a la valoración presencial para resolver dudas.</p>
+          <a class="cta" target="_blank" rel="noopener" href="https://wa.me/593986365562?text=Quiero%20informaci%C3%B3n%20de%20la%20orientaci%C3%B3n%20odontol%C3%B3gica%20online">Consultar por WhatsApp →</a>
+        </div>
+      </div>
+    </section>
+
+    <section id="equipo" class="section">
+      <h2>Nuestro equipo</h2>
+      <div class="profiles">
+        <div class="profile">
+          <img src="assets/profiles/eddy.jpg" alt="Dr. Eddy Veintimilla Paguay"/>
+          <div class="name">Dr. Eddy Veintimilla Paguay</div>
+          <div class="role">Medicina General</div>
+          <a class="link" href="https://www.instagram.com/dr.veintimillaeddie?igsh=aWZ1MW1sNDdtbWMw" target="_blank" rel="noopener">Instagram</a>
+        </div>
+        <div class="profile">
+          <img src="assets/profiles/ana_belen.jpg" alt="Psic. Clin. Ana Belén Leon"/>
+          <div class="name">Psic. Clin. Ana Belén Leon</div>
+          <div class="role">Psicología Clínica</div>
+          <a class="link" href="https://www.instagram.com/psicologia_anabelen?igsh=czNqdzQ5OW9yd3Uw" target="_blank" rel="noopener">Instagram</a>
+        </div>
+        <div class="profile">
+          <img src="assets/profiles/yenny.jpg" alt="Dra. Yenny Pineda"/>
+          <div class="name">Dra. Yenny Pineda</div>
+          <div class="role">Odontología</div>
+          <a class="link" href="https://www.instagram.com/yenny6574?igsh=ZnM2d3gxOWU3YmRh" target="_blank" rel="noopener">Instagram</a>
+        </div>
+      </div>
+    </section>
+
+    <section id="contacto" class="section">
+      <h2>Información y contacto</h2>
+      <div class="contact-grid">
+        <div class="info">
+          <p><strong>WhatsApp:</strong> 0986365562 · 0993086500</p>
+          <p><strong>Email:</strong> <a href="mailto:cami.centromedico@gmail.com">cami.centromedico@gmail.com</a></p>
+          <p><strong>Horarios:</strong><br/>Lun–Vie 08h00–19h00 · Sáb–Dom 09h00–13h00<br/>Emergencias 05h00–24h00</p>
+          <p><strong>Ubicaciones:</strong><br/>Av. de los Paltas y Agustín Aguirre (Centro CAMI).<br/>Sobre Farmacia Sara Betsabé, 2ª planta (Fisio Sport – en preparación).</p>
+        </div>
+        <div class="info" style="text-align:center">
+          <h3>Agendar por WhatsApp</h3>
+          <img src="assets/qr_whatsapp.png" alt="QR WhatsApp" class="qr"/>
+        </div>
+        <div class="info" style="text-align:center">
+          <h3>Agenda en línea</h3>
+          <img src="assets/qr_agenda.png" alt="QR Agenda" class="qr"/>
+        </div>
+      </div>
+    </section>
   </main>
-  <footer class="foot">
-    <div class="inner">
-      <div><img src="assets/logo_principal.png" class="logofoot" alt="CAMI"/></div>
+
+  <footer class="footer">
+    <div class="footer-inner">
+      <div><img src="assets/logo_blanco.png" alt="CAMI"/></div>
       <div><strong>Atención</strong><br/>Lun–Vie 08h00–19h00 · Sáb–Dom 09h00–13h00<br/>Emergencias: 05h00–24h00</div>
-      <div><strong>Contacto</strong><br/>WhatsApp: 0986365562 · 0993086500<br/>Email: <a href="mailto:cami.centromedico@gmail.com" style="color:#ecf1ff">cami.centromedico@gmail.com</a></div>
+      <div><strong>Contacto</strong><br/>WhatsApp: 0986365562 · 0993086500<br/>Email: cami.centromedico@gmail.com</div>
     </div>
     <div class="copy">© CAMI 2025. Todos los derechos reservados.</div>
   </footer>
+
   <script>
-    document.querySelectorAll('.dropbtn').forEach(btn=>btn.addEventListener('click',()=>btn.parentElement.classList.toggle('open')));
+    document.querySelectorAll('a[href^="#"]').forEach(function(a){{
+      a.addEventListener('click', function(e){{
+        var id=a.getAttribute('href'); var el=document.querySelector(id);
+        if(el){{ e.preventDefault(); el.scrollIntoView({{behavior:'smooth'}}); }}
+      }});
+    }});
   </script>
 </body>
 </html>
